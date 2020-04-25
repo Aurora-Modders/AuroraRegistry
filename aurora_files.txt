@@ -1,4 +1,6 @@
-﻿Version=1.8.0
+﻿; this is the highest Aurora version for which the registry can provide a full clean install
+Version=1.8.0
+; the actual files can hosted anywhere
 Flags=https://raw.githubusercontent.com/Aurora-Modders/AuroraMods/master/Aurora/Flags.zip
 Medals=https://raw.githubusercontent.com/Aurora-Modders/AuroraMods/master/Aurora/Medals.zip
 Races=https://raw.githubusercontent.com/Aurora-Modders/AuroraMods/master/Aurora/Races.zip
