@@ -50,8 +50,8 @@
     <None Include="mods.json" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="aurora_files.txt" />
-    <Content Include="aurora_versions.txt" />
+    <None Include="aurora_files.ini" />
+    <None Include="aurora_versions.ini" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
