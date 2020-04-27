@@ -21,6 +21,6 @@
       "Name": "Aurora CBP",
       "Type": "Database",
       "Description": "A collaborative DB mod primarily containing tweaks to techs and & part stats.",
-      "Updates": "https://github.com/Aurora-Modders/AuroraCBP/blob/master/Releases/updates.txt"
+      "Updates": "https://raw.githubusercontent.com/Aurora-Modders/AuroraCBP/master/Releases/updates.txt"
   }
 ]
