@@ -18,7 +18,7 @@
       "Updates": "https://raw.githubusercontent.com/Aurora-Modders/AuroraMods/master/Mods/A4xCalc/updates.txt"
   }
   {
-      "Name": "A4xCalc",
+      "Name": "Aurora CBP",
       "Type": "Database",
       "Description": "A collaborative DB mod primarily containing tweaks to techs and & part stats.",
       "Updates": "https://github.com/Aurora-Modders/AuroraCBP/blob/master/Releases/updates.txt"
