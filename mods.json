@@ -16,7 +16,7 @@
       "Type": "Utility",
       "Description": "A feature-rich calculator for optimizing missile and ship builds",
       "Updates": "https://raw.githubusercontent.com/Aurora-Modders/AuroraMods/master/Mods/A4xCalc/updates.txt"
-  }
+  },
   {
       "Name": "Aurora CBP",
       "Type": "Database",
