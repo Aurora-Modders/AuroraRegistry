@@ -24,9 +24,9 @@
       "Updates": "https://raw.githubusercontent.com/Aurora-Modders/AuroraCBP/master/Aurora%20CBP/Releases/updates.txt"
   },
   {
-    "Name": "AuroraDashboard",
-    "Type": "Utility",
-    "Description": "A tool for graphing population statistics",
-    "Updates": "https://github.com/Aurora-Modders/AuroraMods/releases/download/1.0.0/updates.txt"
+    "Name": "Community Wiki Links",
+    "Type": "Database",
+    "Description": "Adds links to the Aurora community wiki to a few text boxes and text descriptions.",
+    "Updates": "https://raw.githubusercontent.com/thashepherd/community_wiki_links/master/updates.ini"
   }
 ]
