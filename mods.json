@@ -12,9 +12,9 @@
     "Updates": "https://raw.githubusercontent.com/Aurora-Modders/AuroraMods/master/Mods/AuroraElectrons/updates.txt"
   },
   {
-      "Name": "A4xCalc",
+      "Name": "Iceranger's Missile and Ship Optimizer",
       "Type": "Utility",
-      "Description": "A feature-rich calculator for optimizing missile and ship builds",
+      "Description": "A feature-rich calculator for optimizing missile and ship builds, also known as A4xCalc",
       "Updates": "https://raw.githubusercontent.com/Aurora-Modders/AuroraMods/master/Mods/A4xCalc/updates.txt"
   },
   {
