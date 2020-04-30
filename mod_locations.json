@@ -1,7 +1,6 @@
 [
-    "https://raw.githubusercontent.com/Aurora-Modders/AuroraMods/master/Mods/AuroraMod/updates.txt",
-    "https://raw.githubusercontent.com/Aurora-Modders/AuroraMods/master/Mods/AuroraElectrons/updates.txt",
-    "https://raw.githubusercontent.com/Aurora-Modders/AuroraMods/master/Mods/A4xCalc/updates.txt",
-    "https://raw.githubusercontent.com/Aurora-Modders/AuroraCBP/master/Aurora%20CBP/Releases/updates.txt"
+    "https://raw.githubusercontent.com/Aurora-Modders/AuroraRegistry/test_mod_json/Mods/aurora_cbp.json",
+    "https://raw.githubusercontent.com/Aurora-Modders/AuroraRegistry/test_mod_json/Mods/aurora_electrons.json",
+    "https://raw.githubusercontent.com/Aurora-Modders/AuroraRegistry/test_mod_json/Mods/iceranger.json",
+    "https://raw.githubusercontent.com/Aurora-Modders/AuroraRegistry/test_mod_json/Mods/auroramod.json"
 ]
-  

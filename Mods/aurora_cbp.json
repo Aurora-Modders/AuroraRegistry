@@ -1,0 +1,42 @@
+// Lines starting with // are comments and ignored
+// Feel free to delete these comments after use
+{
+    // Required
+    // Human-readable names with casing, punctuation, etc. are encouraged
+    "name": "Aurora Community Balance Patch",
+
+    // Optional (but highly encouraged)
+    "description": "A collaborative DB mod primarily containing tweaks to techs and & part stats.",
+
+    // Required
+    // Approved, Public, or Poweruser
+    // Casing does not matter
+    "status": "poweruser",
+
+    // Required
+    // Executable, Database, RootUtility, or Utility
+    // Casing does not matter
+    "type": "database",
+
+    // Optional
+    // The command used to configure the mod
+    // Generally just the filename of a readme or config file
+    "configuration_file": "techs.sql",
+
+    // Optional
+    // Not yet implemented
+    "changelog_file": "",
+
+    // Optional
+    // Point to your mod's repository, forum, AAR, etc
+    "url": "https://github.com/Aurora-Modders/AuroraCBP",
+
+    "downloads":
+    [
+        {
+            "version": "1.8.0-0.5",
+            "target_aurora_version": "1.8",
+            "download_url": "https://raw.githubusercontent.com/Aurora-Modders/AuroraCBP/master/Aurora%20CBP/Releases/AuroraCBP-1.8.0-0.5.zip"
+        }
+    ]
+}
