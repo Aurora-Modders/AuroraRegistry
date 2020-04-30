@@ -20,7 +20,7 @@
 
     // Required for Executable, RootUtility, and Utility mods
     // The command used to launch or apply the mod
-    "launch_command": "AuroraMod-1.9.0.0.exe",
+    "launch_command": "AuroraMod-1.9.0-0.exe",
 
     // Optional
     // The command used to configure the mod
