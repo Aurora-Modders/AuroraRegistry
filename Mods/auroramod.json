@@ -25,11 +25,11 @@
     // Optional
     // The command used to configure the mod
     // Generally just the filename of a readme or config file
-    "configuration_file": "readME.txt",
+    "configuration_file": "Aurora.mod.config",
 
     // Optional
     // Not yet implemented
-    "changelog_file": "",
+    "changelog_file": "Aurora.mod.txt",
 
     // Optional
     // Point to your mod's repository, forum, AAR, etc
