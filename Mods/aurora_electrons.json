@@ -1,40 +1,9 @@
-// Lines starting with // are comments and ignored
-// Feel free to delete these comments after use
 {
-    // Required
-    // Human-readable names with casing, punctuation, etc. are encouraged
     "name": "AuroraElectrons",
-
-    // Optional (but highly encouraged)
     "description": "A slick modern app for sorting and visualizing mining and production. Also includes an engine optimizer.",
-
-    // Required
-    // Approved, Public, or Poweruser
-    // Casing does not matter
     "status": "approved",
-
-    // Required
-    // Executable, Database, RootUtility, or Utility
-    // Casing does not matter
     "type": "rootutility",
-
-    // Required for Executable, RootUtility, and Utility mods
-    // The command used to launch or apply the mod
     "launch_command": "aurora-electrons-0.4.0.exe",
-
-    // Optional
-    // The command used to configure the mod
-    // Generally just the filename of a readme or config file
-    // "configuration_file": "config.json",
-
-    // Optional
-    // Not yet implemented
-    "changelog_file": "",
-
-    // Optional
-    // Point to your mod's repository, forum, AAR, etc
-    // "url": "https://www.google.com",
-
     "downloads":
     [
         {
