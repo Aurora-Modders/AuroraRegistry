@@ -1,0 +1,51 @@
+// Lines starting with // are comments and ignored
+// Feel free to delete these comments after use
+{
+    // Required
+    // Human-readable names with casing, punctuation, etc. are encouraged
+    "name": "Example Mod",
+
+    // Optional (but highly encouraged)
+    "description": "Replaces aurora.exe and provides custom themes, window resizing and persistence, autosave, and other QoL features",
+
+    // Required
+    // Approved, Public, or Poweruser
+    // Casing does not matter
+    "status": "approved",
+
+    // Required
+    // Executable, Database, RootUtility, or Utility
+    // Casing does not matter
+    "type": "executable",
+
+    // Required for Executable, RootUtility, and Utility mods
+    // The command used to launch or apply the mod
+    "launch_command": "AuroraMod-1.9.0-0.exe",
+
+    // Optional
+    // The command used to configure the mod
+    // Generally just the filename of a readme or config file
+    "configuration_file": "Aurora.mod.config",
+
+    // Optional
+    // Not yet implemented
+    // "changelog_file": "Aurora.mod.txt",
+
+    // Optional
+    // Point to your mod's repository, forum, AAR, etc
+    // "url": "https://www.google.com",
+
+    "downloads":
+    [
+        {
+            "version": "1.9.0-0",
+            "target_aurora_version": "1.9",
+            "download_url": "https://raw.githubusercontent.com/Aurora-Modders/AuroraMods/master/Mods/AuroraMod/AuroraMod-1.9.0-0.zip"
+        },
+        {
+            "version": "1.8.0-8",
+            "target_aurora_version": "1.8",
+            "download_url": "https://raw.githubusercontent.com/Aurora-Modders/AuroraMods/master/Mods/AuroraMod/AuroraMod-1.8.0-8.zip"
+        }
+    ]
+}
