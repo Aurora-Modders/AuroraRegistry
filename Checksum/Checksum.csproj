@@ -47,11 +47,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="mods.json" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="aurora_files.ini" />
-    <None Include="aurora_versions.ini" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
