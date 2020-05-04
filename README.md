@@ -14,6 +14,6 @@ This repository is a mirror for Aurora mods and content accessible via the [Auro
 
 - [mods.json](https://github.com/Aurora-Modders/AuroraRegistry/blob/master/mods.json): File used to discover mods by currently released versions of AuroraLoader. Will be deprecated shortly in favor of `mod_locations.json`.
 - [mod_locations.json](https://github.com/Aurora-Modders/AuroraRegistry/blob/master/mod_locations.json): Simple JSON list of URLs pointing to JSON files hosted anywhere. New mods are added to the registry here.
-- [Mods](https://github.com/Aurora-Modders/AuroraRegistry/tree/master/Mods): Contains an example `mod.json` file, as well as several mod JSON files hosted directly by the registry.
+- [Mods](https://github.com/Aurora-Modders/AuroraRegistry/tree/master/Mods): Contains an example `mod.json` file.
 - [aurora_files.ini](https://github.com/Aurora-Modders/AuroraRegistry/blob/master/aurora_files.ini) and [aurora_versions.ini](https://github.com/Aurora-Modders/AuroraRegistry/blob/master/aurora_versions.ini): Files used by the loader to identify and discover new versions of Aurora
 - C# project files: This repository also contains a simple program for testing the checksum of an .exe that you can run from Visual Studio.
