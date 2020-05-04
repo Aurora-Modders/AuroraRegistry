@@ -20,6 +20,7 @@
 
     // Required for Executable, RootUtility, and Utility mods
     // The command used to launch or apply the mod
+    // Should not be versioned, i.e. "Java -jar examplemod-1.0.0.jar" would be a poor command
     "launch_command": "AuroraMod-1.9.0-0.exe",
 
     // Optional
@@ -38,11 +39,21 @@
     "downloads":
     [
         {
+            // Required
+            // SemVer. Version of the mod.
+            // Does not need to track Aurora version, although some mods use this convention
             "version": "1.9.0-0",
+            
+            // Optional (but highly encouraged)
+            // Target Aurora version. May be imprecise, i.e. '1.8' targets '1.8.*' and '1' targets '1.*.*'
             "target_aurora_version": "1.9",
+            
+            // Required
+            // Check this link carefully. When you visit it in your browser, a .zip file should immediately be downloaded.
             "download_url": "https://raw.githubusercontent.com/Aurora-Modders/AuroraMods/master/Mods/AuroraMod/AuroraMod-1.9.0-0.zip"
         },
         {
+            // The order of versions does not matter
             "version": "1.8.0-8",
             "target_aurora_version": "1.8",
             "download_url": "https://raw.githubusercontent.com/Aurora-Modders/AuroraMods/master/Mods/AuroraMod/AuroraMod-1.8.0-8.zip"
