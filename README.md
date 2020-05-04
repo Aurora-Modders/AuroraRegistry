@@ -4,7 +4,7 @@ This repository is a mirror for Aurora mods and content accessible via the [Auro
 
 ## Adding a mod to the registry
 
-1. Add a `mod.json` file to your repository, or host it somewhere else/here. Structure it like the [example here](https://github.com/Aurora-Modders/AuroraRegistry/blob/master/Mods/aurora_electrons.json).
+1. Add a `mod.json` file to your repository, or host it somewhere else/here. Structure it like the [example here](https://github.com/Aurora-Modders/AuroraRegistry/blob/master/Mods/example_mod.json).
 
 2. Create a pull request against this repository adding the URL of that JSON file to [mod_locations.json](https://github.com/Aurora-Modders/AuroraRegistry/blob/master/mod_locations.json). We'll take a look and merge it in as fast as we can. 
 
