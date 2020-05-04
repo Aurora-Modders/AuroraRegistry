@@ -1,31 +1,39 @@
-// Lines starting with // are comments and ignored
+// Lines starting with // are comments and ignored (don't worry, the JSON parser that AuroraLoader uses handles comments)
 // Feel free to delete these comments after use
 {
     // Required
     // Human-readable names with casing, punctuation, etc. are encouraged
+    // There's no need to preface your mod's name with 'Aurora'; 'Armor weight rebalance' is preferred to 'Aurora armor weight rebalance'
     "name": "Example Mod",
 
     // Optional (but highly encouraged)
     "description": "Replaces aurora.exe and provides custom themes, window resizing and persistence, autosave, and other QoL features",
 
     // Required
-    // Approved, Public, or Poweruser
-    // Casing does not matter
+    // Approved, Public, or Poweruser (casing does not matter)
+    // Approved: Mark your mod as 'approved' if Aurora's developer has explicitly indicated that he's approved it
+    // Public: Mark your mod as 'public' if it is read-only and doesn't in any way impact the Aurora executable or database. Most utilities and themes fall into this category.
+    // Power user: Mark your mod as 'poweruser' if it affects the Aurora executable or database, and it hasn't been approved. All database mods fall into this category.
+    // See https://www.reddit.com/r/aurora4x_mods/comments/g4lnec/flair_rules_and_a_note_on_bug_reporting/ for further guidance
     "status": "approved",
 
     // Required
-    // Executable, Database, RootUtility, or Utility
-    // Casing does not matter
+    // Executable, Database, RootUtility, or Utility (casing does not matter)
+    // Executable and RootUtility mods will be copied to Aurora's installation directory and `launch_command` will be run at game start. Only one executable mod can be selected at a time, whereas an unlimited number of RootUtilities can be selected by the user.
+    // Utility mods will be launched from `<root>/Mods/<mod name>/<mod version>` with `launch_command` at game start.
+    // Database mods will have `<root>/Mods/<mod name>/<mod version>/uninstall.sql` run, and then all other SQL scripts provided by the mod will be run. That the mod was installed will be logged to a table in the Aurora database by AuroraLoader.
+    // Theme mods should not throw errors, but are currently untested
     "type": "executable",
 
     // Required for Executable, RootUtility, and Utility mods
     // The command used to launch or apply the mod
-    // Should not be versioned, i.e. "Java -jar examplemod-1.0.0.jar" would be a poor command
-    "launch_command": "AuroraMod-1.9.0-0.exe",
+    // Should not be versioned, i.e. 'java -jar example_mod.jar' is strongly preferred to 'java -jar example_mod-1.0.0.jar'
+    // Not needed for database or theme mods
+    "launch_command": "AuroraMod.exe",
 
     // Optional
     // The command used to configure the mod
-    // Generally just the filename of a readme or config file
+    // Generally just the filename of a readme or config file, but can be the path to an executable or even a shell command
     "configuration_file": "Aurora.mod.config",
 
     // Optional
@@ -34,7 +42,7 @@
 
     // Optional
     // Point to your mod's repository, forum, AAR, etc
-    // "url": "https://www.google.com",
+    "url": "https://github.com/Aurora-Modders/AuroraRegistry",
 
     "downloads":
     [
@@ -49,6 +57,7 @@
             "target_aurora_version": "1.9",
             
             // Required
+            // The source for this version of your mod
             // Check this link carefully. When you visit it in your browser, a .zip file should immediately be downloaded.
             "download_url": "https://raw.githubusercontent.com/Aurora-Modders/AuroraMods/master/Mods/AuroraMod/AuroraMod-1.9.0-0.zip"
         },
