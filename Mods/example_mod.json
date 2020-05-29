@@ -37,8 +37,7 @@
     "configuration_file": "Aurora.mod.config",
 
     // Optional
-    // Not yet implemented
-    // "changelog_file": "Aurora.mod.txt",
+    "changelog_file": "CHANGELOG.md",
 
     // Optional
     // Point to your mod's repository, forum, AAR, etc
